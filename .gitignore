@@ -1,0 +1,11 @@
+# Ficheiros compilados do Python
+__pycache__/
+*.pyc
+
+# Base de dados local (Não queremos enviar o histórico pessoal para o GitHub)
+db.sqlite3
+
+# Ambientes virtuais (O GitHub não precisa do peso das bibliotecas instaladas)
+venv/
+env/
+.env
